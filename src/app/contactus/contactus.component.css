@@ -1,0 +1,73 @@
+*{
+  background-color: #ddd;
+  margin-bottom: 7px;
+}
+/*tooltip*/
+.tooltiptext {
+  visibility: hidden;
+  width: 500px;
+  background-color:#000;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: -5px;
+  right: 105%;
+  /* Position the tooltip */
+  position: absolute;
+  text-align: left;
+  z-index: 8;
+  }
+  .fa-info-circle:hover .tooltiptext {
+  visibility: visible;
+  }
+  .fa-info-circle{
+    position: relative;
+  display: inline-block;
+  border-bottom: 2px solid #29465B;
+  margin-left: 1250px;
+  color: snow;
+  }
+/*form*/
+form {
+background-color: #ddd;
+image-resolution: 100%;
+max-width: 700px;
+margin: 70px auto;
+padding: 45px 42px;
+box-shadow: 2px 5px 10px #2c5364;
+color: #0f2027;
+}
+/* Styling form-control Class */
+.form-control {
+text-align: left;
+margin-bottom: 25px;
+}
+/* Styling form-control Label */
+.form-control label {
+display: block;
+margin-bottom: 10px;
+}
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+border: 1px solid #777;
+border-radius: 3px;
+font-family: inherit;
+padding: 15px;
+display: block;
+width: 97%;
+}
+/* Styling Button */
+button {
+background-color: #29465B;
+border: 2px solid #777;
+border-radius: 3px;
+font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 28px;
+display: block;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 30px;
+}
